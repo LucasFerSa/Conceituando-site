@@ -1,0 +1,139 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    list-style: none;
+    text-decoration-style: none;
+
+}
+
+header{
+    background-image: url(Computer-Programming-Links-Coding-Computer-Code-1836330.png);
+    color: rgb(228, 228, 228);
+    padding: 50px;
+    background-position: center center;
+    text-align: center;
+}
+h1{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.texto_titulo{
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.link_initial{
+    display: inline-block;
+    text-decoration: none;
+    color: rgb(224, 224, 224);
+    padding: 15px;
+    background-color: rgb(37, 37, 37);
+    border: 1px solid rgba(224, 224, 224, 0.623);
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.link_initial:hover{
+    color: rgb(37, 37, 37);
+    background-color: rgb(216, 216, 216);
+}
+
+.dict{
+    padding: 40px;
+    background-color: rgb(224, 224, 224);
+    text-align: center;
+}
+
+.dict_text{
+    padding-bottom: 40px;
+}
+
+ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: row;
+}
+
+li{
+    padding: 10px;
+}
+
+.leng_div{
+    background-color: rgb(37, 37, 37);
+}
+
+.temp{
+    max-width: 230px;
+}
+
+.ling{
+    background-color: rgb(37, 37, 37);;
+    color: rgb(216, 216, 216);
+    text-align: center;
+    padding: 30px;
+}
+
+.leng_div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card{
+    margin: 0px 10px 20px 10px;
+    background-color:rgb(216, 216, 216);
+    max-width: 130px;
+    height: 320px;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.911);
+    margin-bottom: 40px;
+    text-align: center;
+
+}
+
+.prog_img{
+    width:100px;
+    height: 100px;
+}
+
+img{
+    text-align: center;
+}
+
+.tentativa{
+    max-width: 185px;
+}
+
+section{
+    background-color: rgb(216, 216, 216);
+    text-align: center;
+    padding: 15px;
+}
+
+footer{
+    background-color: black;
+    padding: 20px;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+}
+
+.cont{
+    text-decoration: none;
+    color: white;
+}
+
+.first_column{
+    justify-content: flex-start;
+    padding-right: 40px;
+}
+
+.second_column{
+    padding-left: 40px;
+    justify-content: flex-end;
+    text-align: right;
+}
